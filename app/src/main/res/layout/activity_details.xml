@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Details">
+
+    <TextView
+        android:id="@+id/tmp"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="100dp"
+        android:text=" "
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/cond"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/t_title"
+        android:layout_marginTop="163dp"
+        android:text=" "
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/t_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="34dp"
+        android:text="Weather in  "
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/datte"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/cond"
+        android:layout_marginTop="200dp" />
+
+    <TextView
+        android:id="@+id/tx_Wind"
+        android:layout_width="335dp"
+        android:layout_height="47dp"
+        android:layout_alignStart="@+id/cond"
+        android:layout_centerVertical="true"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txPress"
+        android:layout_width="338dp"
+        android:layout_height="41dp"
+        android:layout_alignStart="@+id/cond"
+        android:layout_below="@+id/tx_Wind"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txHum"
+        android:layout_width="338dp"
+        android:layout_height="44dp"
+        android:layout_alignStart="@+id/cond"
+        android:layout_below="@+id/txPress"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txSunR"
+        android:layout_width="340dp"
+        android:layout_height="46dp"
+        android:layout_alignStart="@+id/cond"
+        android:layout_below="@+id/txHum" />
+
+    <TextView
+        android:id="@+id/txSunS"
+        android:layout_width="336dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/cond"
+        android:layout_below="@+id/txSunR" />
+
+    <TextView
+        android:id="@+id/txCoords"
+        android:layout_width="337dp"
+        android:layout_height="41dp"
+        android:layout_alignStart="@+id/cond"
+        android:layout_below="@+id/txSunS" />
+
+
+</RelativeLayout>
